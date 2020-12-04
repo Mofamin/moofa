@@ -1,6 +1,7 @@
 package com.moofa.course.server.service;
 
 import com.moofa.course.server.domain.Test;
+import com.moofa.course.server.domain.TestExample;
 import com.moofa.course.server.mapper.TestMapper;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +16,6 @@ public class TestService {
     private TestMapper testMapper;
 
     public List<Test> list() {
-        return testMapper.list();
+        return testMapper.selectByExample(new TestExample());
     }
 }
