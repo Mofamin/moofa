@@ -1,4 +1,4 @@
-package com.course.system;
+package com.moofa.course.system.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
@@ -11,8 +11,8 @@ import org.springframework.core.env.Environment;
 
 @SpringBootApplication
 @EnableEurekaClient
-@ComponentScan("com.course")
-@MapperScan("com.course.system.mapper")
+@ComponentScan("com.moofa.course")
+@MapperScan("com.moofa.course.server.mapper")
 public class SystemApplication {
 
     private static final Logger LOG = LoggerFactory.getLogger(SystemApplication.class);

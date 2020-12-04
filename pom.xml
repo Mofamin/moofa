@@ -15,7 +15,7 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.moofa</groupId>
+    <groupId>com.moofa.course</groupId>
     <artifactId>course</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>course</name>
@@ -46,6 +46,13 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>8.0.16</version>
+            </dependency>
+
+            <!-- 公共模块server -->
+            <dependency>
+                <groupId>com.moofa.course</groupId>
+                <artifactId>server</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
 

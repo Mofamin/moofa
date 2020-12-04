@@ -1,4 +1,4 @@
-package com.course.server.domain;
+package com.moofa.course.server.domain;
 
 public class Test {
     private Integer id;

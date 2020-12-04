@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>course</artifactId>
-        <groupId>com.moofa</groupId>
+        <groupId>com.moofa.course</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -37,6 +37,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+        <!-- 公共模块server -->
+        <dependency>
+            <groupId>com.moofa.course</groupId>
+            <artifactId>server</artifactId>
         </dependency>
 
     </dependencies>
